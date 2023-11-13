@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/pavelzag/k8s-sample-app.git
-    path: k8s-sample-app-argo
     targetRevision: HEAD
+    path: my-app
   destination:
     server: https://kubernetes.default.svc
